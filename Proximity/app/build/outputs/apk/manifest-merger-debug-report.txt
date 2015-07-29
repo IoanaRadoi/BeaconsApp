@@ -1,0 +1,117 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:1:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:1:11
+	package
+		ADDED from AndroidManifest.xml:2:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:4:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.WAKE_LOCK
+ADDED from AndroidManifest.xml:6:5
+	android:name
+		ADDED from AndroidManifest.xml:6:22
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:7:5
+	android:name
+		ADDED from AndroidManifest.xml:7:22
+uses-permission#android.permission.VIBRATE
+ADDED from AndroidManifest.xml:8:5
+	android:name
+		ADDED from AndroidManifest.xml:8:22
+uses-sdk
+ADDED from AndroidManifest.xml:10:5
+MERGED from org.altbeacon:android-beacon-library:2.1.4:7:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:12:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:11:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+application
+ADDED from AndroidManifest.xml:14:5
+MERGED from org.altbeacon:android-beacon-library:2.1.4:15:5
+	android:label
+		ADDED from AndroidManifest.xml:16:9
+	android:icon
+		ADDED from AndroidManifest.xml:15:9
+	android:name
+		ADDED from AndroidManifest.xml:17:9
+activity#com.kilobolt.robotgame.SampleGame
+ADDED from AndroidManifest.xml:18:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:22:13
+	android:label
+		ADDED from AndroidManifest.xml:21:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:20:13
+	android:name
+		ADDED from AndroidManifest.xml:19:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:23:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:24:17
+	android:name
+		ADDED from AndroidManifest.xml:24:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:26:17
+	android:name
+		ADDED from AndroidManifest.xml:26:27
+uses-permission#android.permission.BLUETOOTH
+ADDED from org.altbeacon:android-beacon-library:2.1.4:11:5
+	android:name
+		ADDED from org.altbeacon:android-beacon-library:2.1.4:11:22
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from org.altbeacon:android-beacon-library:2.1.4:12:5
+	android:name
+		ADDED from org.altbeacon:android-beacon-library:2.1.4:12:22
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from org.altbeacon:android-beacon-library:2.1.4:13:5
+	android:name
+		ADDED from org.altbeacon:android-beacon-library:2.1.4:13:22
+receiver#org.altbeacon.beacon.startup.StartupBroadcastReceiver
+ADDED from org.altbeacon:android-beacon-library:2.1.4:16:9
+	android:name
+		ADDED from org.altbeacon:android-beacon-library:2.1.4:16:19
+intent-filter#android.intent.action.ACTION_POWER_CONNECTED+android.intent.action.ACTION_POWER_DISCONNECTED+android.intent.action.BOOT_COMPLETED
+ADDED from org.altbeacon:android-beacon-library:2.1.4:17:13
+action#android.intent.action.BOOT_COMPLETED
+ADDED from org.altbeacon:android-beacon-library:2.1.4:18:17
+	android:name
+		ADDED from org.altbeacon:android-beacon-library:2.1.4:18:25
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from org.altbeacon:android-beacon-library:2.1.4:19:17
+	android:name
+		ADDED from org.altbeacon:android-beacon-library:2.1.4:19:25
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from org.altbeacon:android-beacon-library:2.1.4:20:17
+	android:name
+		ADDED from org.altbeacon:android-beacon-library:2.1.4:20:25
+service#org.altbeacon.beacon.service.BeaconService
+ADDED from org.altbeacon:android-beacon-library:2.1.4:24:9
+	android:label
+		ADDED from org.altbeacon:android-beacon-library:2.1.4:29:13
+	android:isolatedProcess
+		ADDED from org.altbeacon:android-beacon-library:2.1.4:28:13
+	android:exported
+		ADDED from org.altbeacon:android-beacon-library:2.1.4:27:13
+	android:enabled
+		ADDED from org.altbeacon:android-beacon-library:2.1.4:26:13
+	android:name
+		ADDED from org.altbeacon:android-beacon-library:2.1.4:25:13
+service#org.altbeacon.beacon.BeaconIntentProcessor
+ADDED from org.altbeacon:android-beacon-library:2.1.4:30:9
+	android:exported
+		ADDED from org.altbeacon:android-beacon-library:2.1.4:33:13
+	android:enabled
+		ADDED from org.altbeacon:android-beacon-library:2.1.4:32:13
+	android:name
+		ADDED from org.altbeacon:android-beacon-library:2.1.4:31:13

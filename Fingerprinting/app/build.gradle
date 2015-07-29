@@ -1,0 +1,26 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 17
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "com.kilobolt.robotgame"
+        minSdkVersion 8
+        targetSdkVersion 17
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:18.0.0'
+    compile 'org.altbeacon:android-beacon-library:2.1.4@aar'
+    compile "org.apache.commons:commons-math3:3.0"
+    compile 'com.squareup.retrofit:retrofit:1.9.0'
+}

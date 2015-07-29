@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\.g\caches\modules-2\files-2.1\org.apache.commons\commons-math3\3.0\5f8d1d720333aa9a7dee1c949ea70d9ed7da6106\commons-math3-3.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5f8d1d720333aa9a7dee1c949ea70d9ed7da6106">
+        <dex dex="C:\Users\ioana.radoi\Desktop\prGit\BeaconsApp\ParticleFilters\app\build\intermediates\pre-dexed\debug\commons-math3-3.0-db7c5ae8486d72cebf5fbeb334e20a44842708f9.jar" />
+    </item>
+    <item
+        jar="C:\Users\ioana.radoi\Desktop\game_example1 - 19_06_3 - part filter cadru_mic\app\build\intermediates\exploded-aar\org.altbeacon\android-beacon-library\2.1.4\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fc2b4fa86d40b71af744611751543dfe079eff58">
+        <dex dex="C:\Users\ioana.radoi\Desktop\game_example1 - 19_06_3 - part filter cadru_mic\app\build\intermediates\pre-dexed\debug\classes-d2a16363c1a4691b8b5b99646a248f8838c5d045.jar" />
+    </item>
+    <item
+        jar="C:\Users\ioana.radoi\Desktop\prGit\BeaconsApp\ParticleFilters\app\build\intermediates\exploded-aar\org.altbeacon\android-beacon-library\2.1.4\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fc2b4fa86d40b71af744611751543dfe079eff58">
+        <dex dex="C:\Users\ioana.radoi\Desktop\prGit\BeaconsApp\ParticleFilters\app\build\intermediates\pre-dexed\debug\classes-8dc6989e95131c803f3a10afbdda38abc910587d.jar" />
+    </item>
+    <item
+        jar="C:\Users\ioana.radoi\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\ioana.radoi\Desktop\prGit\BeaconsApp\ParticleFilters\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-4e152851d0a05e68908f93672e52c5e69479aa6f.jar" />
+    </item>
+
+</items>
